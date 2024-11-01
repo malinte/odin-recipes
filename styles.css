@@ -1,0 +1,66 @@
+
+* {
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image-container{
+    position: relative;
+    height: 400px; /* Adjust the height as needed */
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.fade {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 150px; /* Adjust the height of the fade effect */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #ffffff);
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 30px; /* Adjust to control space above headings */
+    margin-bottom: 20px; /* Adjust to control space below headings */
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 20px;
+
+}
+
+.steps,
+.ingridients,
+.description,
+.recipes {
+    padding: 35px;
+}
+
+li,
+.content {
+    font-size: 18px;
+}
+
+li {
+margin-top: 10px; /* Adjust to control space above headings */
+margin-bottom: 5px; /* Adjust to control space below headings */
+}
+
+.recipes{
+    background-color: #6d819f72;
+}
